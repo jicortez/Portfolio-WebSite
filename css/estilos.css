@@ -108,14 +108,10 @@ body{
 }
 
 .hero__wave{
-    fill: transparent;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
-    height: 40%;
-    object-position: top;
-    object-fit: cover;
+    fill: transparent;
+    bottom: 0;
 }
 
 /* about*/
@@ -149,6 +145,11 @@ body{
     text-decoration: none;
     padding: var(--boton-padding);
     border-radius: 40px;
+}
+
+.hero__cta:hover{
+    background: var(--color-primary);
+    color: white;
 }
 
 /* Mis habilidades*/
@@ -280,6 +281,11 @@ img{
     padding: 30px 25px;
     color: white;
     margin-bottom: 50px;
+}
+
+.testimony__article:hover{
+    box-shadow: none;
+    background: #562a83;
 }
 
 .testimony__person{
